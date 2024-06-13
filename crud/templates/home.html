@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Educativa</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">  </head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="container">
+            <h1><a id="brand"></a>EstudiaPlus</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="pages/login.html">Iniciar Sesión</a></li>
+                    <li><a href="pages/registro.html">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Bienvenido a EstudiaPlus</h2>
+                <p>Encuentra tus cursos, realiza un seguimiento de tu progreso y más.</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Características Principales</h2>
+                <div class="feature-item">
+                    <h3>Seguimiento de Calificaciones</h3>
+                    <p>Visualiza tus calificaciones por curso, asignatura y período académico.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Registro de Asistencia</h3>
+                    <p>Lleva un registro de tu asistencia a clases con detalles de tardanzas y ausencias.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Notificaciones a Padres</h3>
+                    <p>Recibe notificaciones automáticas para informar a los padres sobre inasistencias.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Plataforma Educativa. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
